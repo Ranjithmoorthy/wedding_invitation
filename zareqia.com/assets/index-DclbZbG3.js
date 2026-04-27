@@ -13506,8 +13506,8 @@ function I3(e) {
     : c0()
       ? "https://va.vercel-scripts.com/v1/script.debug.js"
       : e.basePath
-        ? "/javascript-amazon-project/zareqia.com/vercel/insights/script.js"
-        : "/javascript-amazon-project/zareqia.com/vercel/insights/script.js";
+        ? "/wedding-invitation/zareqia.com/vercel/insights/script.js"
+        : "/wedding-invitation/zareqia.com/vercel/insights/script.js";
 }
 function M3(e, t) {
   var n;
@@ -13627,8 +13627,8 @@ function q3(e) {
       : e.dsn
         ? "https://va.vercel-scripts.com/v1/speed-insights/script.js"
         : e.basePath
-          ? "/javascript-amazon-project/zareqia.com/vercel/speed-insights/script.js"
-          : "/javascript-amazon-project/zareqia.com/vercel/speed-insights/script.js";
+          ? "/wedding-invitation/zareqia.com/vercel/speed-insights/script.js"
+          : "/wedding-invitation/zareqia.com/vercel/speed-insights/script.js";
 }
 function H3(e, t) {
   var n;
@@ -42151,14 +42151,14 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
     translationLanguage: "",
   },
   aW = [
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/06-img-5755-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/07-img-5795-1200.jpg",
-    "/javascript-amazon-project/zareqia.com/gallery-optimized/08-img-6033-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/06-img-5755-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/07-img-5795-1200.jpg",
+    "/wedding-invitation/zareqia.com/gallery-optimized/08-img-6033-1200.jpg",
   ],
   ky = [
     { code: "hi", name: "Hindi" },
@@ -42189,7 +42189,7 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
   Td = {
     track1: {
       name: "Beautiful Dream",
-      url: "/javascript-amazon-project/zareqia.com/music/track1.mp3",
+      url: "/wedding-invitation/zareqia.com/music/track1.mp3",
     },
     track2: { name: "Awakening", url: "/music/track2.mp3" },
     track3: { name: "Chill", url: "/music/track3.mp3" },
@@ -54656,7 +54656,7 @@ const zW = [
                   // Add this above the '*' path
                   // Change this:
                   a.jsx($e, {
-                    path: "/javascript-amazon-project/zareqia.com/invite/index.html",
+                    path: "/wedding-invitation/zareqia.com/invite/index.html",
                     element: a.jsx(a9, {}),
                   }),
                   a.jsx($e, { path: "*", element: a.jsx(u9, {}) }),
