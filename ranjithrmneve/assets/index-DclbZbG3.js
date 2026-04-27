@@ -13506,8 +13506,8 @@ function I3(e) {
     : c0()
       ? "https://va.vercel-scripts.com/v1/script.debug.js"
       : e.basePath
-        ? "/wedding_invitation/zareqia.com/vercel/insights/script.js"
-        : "/wedding_invitation/zareqia.com/vercel/insights/script.js";
+        ? "/wedding_invitation/ranjithrmneve/vercel/insights/script.js"
+        : "/wedding_invitation/ranjithrmneve/vercel/insights/script.js";
 }
 function M3(e, t) {
   var n;
@@ -13627,8 +13627,8 @@ function q3(e) {
       : e.dsn
         ? "https://va.vercel-scripts.com/v1/speed-insights/script.js"
         : e.basePath
-          ? "/wedding_invitation/zareqia.com/vercel/speed-insights/script.js"
-          : "/wedding_invitation/zareqia.com/vercel/speed-insights/script.js";
+          ? "/wedding_invitation/ranjithrmneve/vercel/speed-insights/script.js"
+          : "/wedding_invitation/ranjithrmneve/vercel/speed-insights/script.js";
 }
 function H3(e, t) {
   var n;
@@ -36621,7 +36621,7 @@ const TU = rc("mx-auto", {
                   }),
                 }),
                 a.jsx("a", {
-                  href: "mailto:contact@zareqia.com",
+                  href: "mailto:contact@ranjithrmneve",
                   className:
                     "text-muted-foreground hover:text-primary transition-colors",
                   "aria-label": "Email",
@@ -36947,7 +36947,7 @@ const TU = rc("mx-auto", {
       title: "Create Wedding Invitation Webpage Online | Zareqia",
       description:
         "Create a stunning digital wedding invitation webpage in minutes. 8 premium animated templates, music, maps & more. Share instantly via WhatsApp or email.",
-      canonical: "https://zareqia.com/",
+      canonical: "https://ranjithrmneve/",
     });
     const l = p.useMemo(
       () => [
@@ -36955,14 +36955,14 @@ const TU = rc("mx-auto", {
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "Zareqia",
-          url: "https://zareqia.com",
-          logo: "https://zareqia.com/placeholder.svg",
+          url: "https://ranjithrmneve",
+          logo: "https://ranjithrmneve/placeholder.svg",
           description:
             "Premium digital wedding invitation webpages with interactive features.",
           sameAs: ["https://www.instagram.com/zareqia"],
           contactPoint: {
             "@type": "ContactPoint",
-            email: "contact@zareqia.com",
+            email: "contact@ranjithrmneve",
             contactType: "customer service",
           },
         },
@@ -36970,10 +36970,10 @@ const TU = rc("mx-auto", {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Zareqia",
-          url: "https://zareqia.com",
+          url: "https://ranjithrmneve",
           potentialAction: {
             "@type": "SearchAction",
-            target: "https://zareqia.com/templates",
+            target: "https://ranjithrmneve/templates",
             "query-input": "required name=search_term_string",
           },
         },
@@ -36989,7 +36989,7 @@ const TU = rc("mx-auto", {
             price: "1499",
             priceCurrency: "INR",
             availability: "https://schema.org/InStock",
-            url: "https://zareqia.com/templates",
+            url: "https://ranjithrmneve/templates",
           },
           aggregateRating: {
             "@type": "AggregateRating",
@@ -37941,7 +37941,7 @@ const Ab = [
       title: "Wedding Invitation Templates | 8 Premium Designs - Zareqia",
       description:
         "Browse 8 premium animated wedding invitation templates. Emerald Noir, Crimson Royale, Royal Elegance & more. Choose your design and create your invitation today.",
-      canonical: "https://zareqia.com/templates",
+      canonical: "https://ranjithrmneve/templates",
     });
     const s = (i) => {
       (sessionStorage.setItem("selected_template", i),
@@ -38251,7 +38251,7 @@ const QN = [
       title: "Create Your Account - Zareqia",
       description:
         "Sign up to create your personalized digital wedding invitation. Choose from 6 premium templates with animations, music & more.",
-      canonical: "https://zareqia.com/signup",
+      canonical: "https://ranjithrmneve/signup",
       noIndex: !0,
     });
     const [e] = T0(),
@@ -38485,7 +38485,7 @@ const QN = [
       title: "Login to Your Account - Zareqia",
       description:
         "Log in to your Zareqia account to manage your digital wedding invitations, view analytics, and edit your invitation details.",
-      canonical: "https://zareqia.com/login",
+      canonical: "https://ranjithrmneve/login",
       noIndex: !0,
     });
     const [e, t] = p.useState({ email: "", password: "" }),
@@ -42151,14 +42151,14 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
     translationLanguage: "",
   },
   aW = [
-    "/wedding_invitation/zareqia.com/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/06-img-5755-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/07-img-5795-1200.jpg",
-    "/wedding_invitation/zareqia.com/gallery-optimized/08-img-6033-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/06-img-5755-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/07-img-5795-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/08-img-6033-1200.jpg",
   ],
   ky = [
     { code: "hi", name: "Hindi" },
@@ -42189,7 +42189,7 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
   Td = {
     track1: {
       name: "Beautiful Dream",
-      url: "/wedding_invitation/zareqia.com/music/track1.mp3",
+      url: "/wedding_invitation/ranjithrmneve/music/track1.mp3",
     },
     track2: { name: "Awakening", url: "/music/track2.mp3" },
     track3: { name: "Chill", url: "/music/track3.mp3" },
@@ -53458,7 +53458,7 @@ const zW = [
       title: "Terms & Conditions - Zareqia",
       description:
         "Read the terms and conditions for using Zareqia's digital wedding invitation platform. Understand our policies on usage, payments, and service.",
-      canonical: "https://zareqia.com/terms",
+      canonical: "https://ranjithrmneve/terms",
     }),
     a.jsxs("div", {
       className: "min-h-screen bg-background",
@@ -53666,9 +53666,9 @@ const zW = [
                     children: [
                       "For questions about these terms, contact us at ",
                       a.jsx("a", {
-                        href: "mailto:contact@zareqia.com",
+                        href: "mailto:contact@ranjithrmneve",
                         className: "gold-text underline",
-                        children: "contact@zareqia.com",
+                        children: "contact@ranjithrmneve",
                       }),
                       ".",
                     ],
@@ -53687,7 +53687,7 @@ const zW = [
       title: "Refund & Cancellation Policy - Zareqia",
       description:
         "Learn about Zareqia's refund and cancellation policy for digital wedding invitations. Duplicate payment refunds processed within 7-10 business days.",
-      canonical: "https://zareqia.com/refund-policy",
+      canonical: "https://ranjithrmneve/refund-policy",
     }),
     a.jsxs("div", {
       className: "min-h-screen bg-background",
@@ -53826,9 +53826,9 @@ const zW = [
                       children: [
                         "Email us at ",
                         a.jsx("a", {
-                          href: "mailto:contact@zareqia.com",
+                          href: "mailto:contact@ranjithrmneve",
                           className: "gold-text underline",
-                          children: "contact@zareqia.com",
+                          children: "contact@ranjithrmneve",
                         }),
                         " with your registered email address and payment reference number. We will review your request and respond within 48 hours.",
                       ],
@@ -53866,7 +53866,7 @@ const zW = [
       title: "Shipping & Delivery Policy - Zareqia",
       description:
         "Zareqia provides instant digital delivery of wedding invitations. No physical shipping — your invitation link is available immediately after creation.",
-      canonical: "https://zareqia.com/shipping-policy",
+      canonical: "https://ranjithrmneve/shipping-policy",
     }),
     a.jsxs("div", {
       className: "min-h-screen bg-background",
@@ -54000,7 +54000,7 @@ const zW = [
       title: "Privacy Policy - Zareqia",
       description:
         "Zareqia's privacy policy explains how we collect, use, and protect your personal data when using our digital wedding invitation service.",
-      canonical: "https://zareqia.com/privacy-policy",
+      canonical: "https://ranjithrmneve/privacy-policy",
     }),
     a.jsxs("div", {
       className: "min-h-screen bg-background",
@@ -54221,9 +54221,9 @@ const zW = [
                     children: [
                       "For privacy concerns or data requests, contact us at ",
                       a.jsx("a", {
-                        href: "mailto:contact@zareqia.com",
+                        href: "mailto:contact@ranjithrmneve",
                         className: "gold-text underline",
-                        children: "contact@zareqia.com",
+                        children: "contact@ranjithrmneve",
                       }),
                       ".",
                     ],
@@ -54242,7 +54242,7 @@ const zW = [
       title: "Contact Us - Zareqia | Wedding Invitation Support",
       description:
         "Get in touch with the Zareqia team. We respond within 24-48 hours. Contact us for questions about your digital wedding invitation.",
-      canonical: "https://zareqia.com/contact",
+      canonical: "https://ranjithrmneve/contact",
     });
     const [e] = T0(),
       t = e.get("name") || "",
@@ -54320,10 +54320,10 @@ const zW = [
                               children: "Email",
                             }),
                             a.jsx("a", {
-                              href: "mailto:contact@zareqia.com",
+                              href: "mailto:contact@ranjithrmneve",
                               className:
                                 "text-muted-foreground text-sm hover:underline",
-                              children: "contact@zareqia.com",
+                              children: "contact@ranjithrmneve",
                             }),
                           ],
                         }),
@@ -54418,7 +54418,7 @@ const zW = [
       title: "About Zareqia | Digital Wedding Invitation Platform",
       description:
         "Learn about Zareqia — a premium digital wedding invitation platform. We create personalized, interactive invitation webpages with elegant designs.",
-      canonical: "https://zareqia.com/about",
+      canonical: "https://ranjithrmneve/about",
     }),
     a.jsxs("div", {
       className: "min-h-screen bg-background",
@@ -54656,7 +54656,7 @@ const zW = [
                   // Add this above the '*' path
                   // Change this:
                   a.jsx($e, {
-                    path: "/wedding_invitation/zareqia.com/invite/index.html",
+                    path: "/wedding_invitation/ranjithrmneve/invite/index.html",
                     element: a.jsx(a9, {}),
                   }),
                   a.jsx($e, { path: "*", element: a.jsx(u9, {}) }),

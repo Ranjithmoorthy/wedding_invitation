@@ -36,7 +36,7 @@
             e[`${t}Endpoint`] ||
             ("endpoint" in e
               ? `${e.endpoint}/${t}`
-              : `${null != i && i.src.includes("/va/") ? "/va" : "/wedding_invitation/zareqia.com/vercel/insights"}/${t}`)
+              : `${null != i && i.src.includes("/va/") ? "/va" : "/wedding_invitation/ranjithrmneve/vercel/insights"}/${t}`)
           );
         }
         async function h(e) {
