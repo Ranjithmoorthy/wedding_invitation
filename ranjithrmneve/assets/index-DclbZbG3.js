@@ -42151,14 +42151,12 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
     translationLanguage: "",
   },
   aW = [
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/06-img-5755-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/07-img-5795-1200.jpg",
-    "/wedding_invitation/ranjithrmneve/gallery-optimized/08-img-6033-1200.jpg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/01-copy-of-0c0a9886-1200.jpeg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/02-copy-of-0c0a9888-1200.jpeg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/03-copy-of-0c0a9894-1200.jpeg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/04-copy-of-9a4a5651-1200.jpeg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/05-copy-of-9a4a5953-1200.jpeg",
+    "/wedding_invitation/ranjithrmneve/gallery-optimized/06-img-5755-1200.jpeg",
   ],
   ky = [
     { code: "hi", name: "Hindi" },
@@ -47864,7 +47862,7 @@ const zW = [
       [w, y] = p.useState(!1),
       v =
         t.backgroundImage ||
-        "../gallery-optimized/05-copy-of-9a4a5953-1200.jpg",
+        "../gallery-optimized/05-copy-of-9a4a5953-1200.jpeg",
       j = () => {
         (y(!0), b == null || b());
       };
@@ -49201,7 +49199,7 @@ const zW = [
       },
       k =
         t.backgroundImage ||
-        "../gallery-optimized/05-copy-of-9a4a5953-1200.jpg";
+        "../gallery-optimized/05-copy-of-9a4a5953-1200.jpeg";
     return a.jsxs("div", {
       className: "min-h-screen",
       style: {
