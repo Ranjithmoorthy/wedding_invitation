@@ -24279,7 +24279,7 @@ class rD {
   }
   async inviteUserByEmail(t, n = {}) {
     try {
-      return await ce(this.fetch, "POST", `${this.url}/invite`, {
+      return await ce(this.fetch, "POST", `${this.url}/invitation`, {
         body: { email: t, data: n.data },
         headers: this.headers,
         redirectTo: n.redirectTo,
@@ -37189,7 +37189,7 @@ const TU = rc("mx-auto", {
                       }),
                     }),
                     a.jsx(ne, {
-                      to: "/invite/demo?template=emerald-noir",
+                      to: "/invitation/demo?template=emerald-noir",
                       children: a.jsx(te, {
                         size: "lg",
                         variant: "outline",
@@ -38048,7 +38048,7 @@ const Ab = [
                             }),
                           }),
                         a.jsx(ne, {
-                          to: `/invite/demo?template=${i.id}`,
+                          to: `/invitation/demo?template=${i.id}`,
                           className: "block",
                           children: a.jsxs("div", {
                             className: "relative h-36 md:h-44 overflow-hidden",
@@ -40429,7 +40429,7 @@ const Hb = 2,
         staleTime: 3e4,
       }),
       m = (x) => {
-        const g = `${window.location.origin}/invite/${x}`;
+        const g = `${window.location.origin}/invitation/${x}`;
         navigator.clipboard.writeText(g).then(() => {
           (s(x),
             se.success("Link copied successfully."),
@@ -40667,7 +40667,7 @@ const Hb = 2,
                                     }),
                                     a.jsxs("p", {
                                       className: "text-xs text-primary mt-1",
-                                      children: ["Link: /invite/", x.slug],
+                                      children: ["Link: /invitation/", x.slug],
                                     }),
                                     a.jsx("p", {
                                       className:
@@ -40702,7 +40702,7 @@ const Hb = 2,
                                       ],
                                     }),
                                     a.jsx(ne, {
-                                      to: `/invite/${x.slug}`,
+                                      to: `/invitation/${x.slug}`,
                                       children: a.jsxs(te, {
                                         variant: "outline",
                                         size: "sm",
@@ -43990,7 +43990,7 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
             ? se.error(T.message)
             : (sessionStorage.removeItem("selected_template"),
               localStorage.removeItem(Kf),
-              se.success("Invitation created! Your link: /invite/" + C),
+              se.success("Invitation created! Your link: /invitation/" + C),
               e("/dashboard")));
       };
     return a.jsxs("div", {
@@ -54638,7 +54638,7 @@ const zW = [
                     path: "/admin",
                     element: a.jsx(Hr, { children: a.jsx(l9, {}) }),
                   }),
-                  a.jsx($e, { path: "/invite/:slug", element: a.jsx(a9, {}) }),
+                  a.jsx($e, { path: "/invitation/:slug", element: a.jsx(a9, {}) }),
                   a.jsx($e, { path: "/terms", element: a.jsx(d9, {}) }),
                   a.jsx($e, { path: "/refund-policy", element: a.jsx(h9, {}) }),
                   a.jsx($e, {
@@ -54654,7 +54654,7 @@ const zW = [
                   // Add this above the '*' path
                   // Change this:
                   a.jsx($e, {
-                    path: "/wedding_invitation/ranjithrmneve/invite/index.html",
+                    path: "/wedding_invitation/ranjithrmneve/invitation/index.html",
                     element: a.jsx(a9, {}),
                   }),
                   a.jsx($e, { path: "*", element: a.jsx(u9, {}) }),
