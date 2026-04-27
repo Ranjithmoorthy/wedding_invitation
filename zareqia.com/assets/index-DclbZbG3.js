@@ -42287,7 +42287,7 @@ Sangeet – June 14, 7:00 PM at Grand Palace Hall`,
     }),
   Ws = ({
     onClick: e,
-    letter: t = "S❤️S",
+    letter: t = "R❤️N",
     sealColor: n = "hsl(0, 65%, 22%)",
     sealHighlight: r = "hsl(0, 55%, 42%)",
     accentColor: s = "hsl(40, 60%, 75%)",
