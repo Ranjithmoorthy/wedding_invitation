@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invitation | Ranjith RM & Nevetha</title>
+
+    <meta
+      name="description"
+      content="You are warmly invited to celebrate the wedding of Ranjith RM and Nevetha."
+    />
+    <meta name="author" content="Ranjith RM & Nevetha" />
+    <meta
+      name="keywords"
+      content="wedding invitation, Ranjith RM, Nevetha, reception, wedding ceremony"
+    />
+
+    <link rel="canonical" href="/javascript-amazon-project/zareqia.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Wedding Invitation | Ranjith RM & Nevetha"
+    />
+    <meta
+      property="og:description"
+      content="Join us for our reception on 20 May 2026 and wedding on 21 May 2026 at Raya Mahal, Kumbakonam."
+    />
+    <meta
+      property="og:image"
+      content="/javascript-amazon-project/zareqia.com/placeholder.svg"
+    />
+    <meta
+      property="og:url"
+      content="/javascript-amazon-project/zareqia.com/invite/demo"
+    />
+    <meta property="og:site_name" content="Wedding Invitation" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Wedding Invitation | Ranjith RM & Nevetha"
+    />
+    <meta
+      name="twitter:description"
+      content="Join us for our reception and wedding celebrations at Raya Mahal, Kumbakonam."
+    />
+    <meta
+      name="twitter:image"
+      content="/javascript-amazon-project/zareqia.com/placeholder.svg"
+    />
+
+    <script
+      type="module"
+      crossorigin
+      src="/javascript-amazon-project/zareqia.com/assets/index-DclbZbG3.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="/javascript-amazon-project/zareqia.com/assets/index-Dr78zcxh.css"
+    />
+
+    <style>
+      html,
+      body,
+      #root {
+        background-color: #0f0f0f !important;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      body {
+        background-color: #0f0f0f !important;
+      }
+
+      /* ── Save the Date ── */
+      .save-date-wrap {
+        max-width: 720px;
+        margin: 28px auto 0;
+        text-align: center;
+      }
+      .save-date-label {
+        display: block;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #d4af37 !important;
+        margin-bottom: 24px;
+        font-weight: 700;
+        opacity: 1 !important;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        font-family: var(--font-cinzel) !important;
+      }
+      .save-date-buttons {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .save-date-btn {
+        min-width: 220px;
+        border: 1px solid #c79a3b;
+        color: #d8c39a;
+        text-decoration: none;
+        padding: 14px 18px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: all 0.2s ease;
+      }
+      .save-date-btn.active,
+      .save-date-btn:hover {
+        background: #c58a07;
+        color: #fff6e1;
+      }
+
+      /* ── Gallery header ── */
+      .our-moments-header {
+        text-align: center;
+        margin-bottom: 26px;
+      }
+      .our-moments-kicker {
+        text-transform: uppercase;
+        letter-spacing: 0.24em;
+        font-size: 11px;
+        color: rgba(232, 232, 232, 0.56);
+        margin-bottom: 10px;
+      }
+      .our-moments-title {
+        margin: 0;
+        font-size: clamp(34px, 6vw, 56px);
+        color: #f4e8ca;
+        line-height: 1;
+      }
+      .our-moments-title em {
+        color: #c94a65;
+        font-style: italic;
+        margin-left: 0.12em;
+      }
+
+      /* ── Gallery grid — no crop, no black bars, natural dimensions ── */
+      .our-moments-section {
+        padding: 40px 16px !important;
+        background: transparent !important;
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+      }
+      .our-moments-grid {
+        columns: 2;
+        column-gap: 10px;
+        max-width: 1040px;
+        margin: 0 auto;
+      }
+      @media (min-width: 768px) {
+        .our-moments-grid {
+          columns: 3;
+        }
+      }
+      .our-moments-grid-item {
+        break-inside: avoid;
+        margin-bottom: 10px;
+        background: transparent;
+        overflow: hidden;
+      }
+      .our-moments-grid-item img {
+        display: block;
+        width: 100% !important;
+        height: auto !important; /* natural height — no fixed cell */
+        object-fit: unset !important; /* browser default — no cropping */
+        position: static !important;
+        opacity: 1 !important;
+        background: transparent !important;
+        max-height: none !important;
+      }
+
+      /* Hero img swap is handled in JS below */
+
+      /* ── WhatsApp Message Section Replacement ── */
+      .wa-section-wrap {
+        text-align: center;
+        padding: 48px 24px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .wa-section-kicker {
+        text-transform: uppercase;
+        letter-spacing: 0.24em;
+        font-size: 11px;
+        color: rgba(245, 128, 128, 0.56);
+        margin-bottom: 12px;
+      }
+      .wa-section-title {
+        font-size: clamp(26px, 5vw, 42px);
+        color: #f5c95c;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+      }
+      .wa-section-title em {
+        color: #c94a65;
+        font-style: italic;
+      }
+      .wa-section-sub {
+        color: rgba(236, 193, 82, 0.7);
+        font-size: 15px;
+        margin: 0 0 32px 0;
+        line-height: 1.6;
+      }
+      .wa-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background: #1a2744;
+        color: #f4e8ca;
+        text-decoration: none;
+        padding: 18px 36px;
+        font-size: 14px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 1px solid #c9a96e;
+        transition: all 0.25s ease;
+        cursor: pointer;
+      }
+      .wa-btn:hover {
+        background: #25a244;
+        border-color: #25a244;
+        color: #fff;
+      }
+      .wa-btn svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+        flex-shrink: 0;
+      }
+      .wa-btn-note {
+        margin-top: 14px;
+        font-size: 12px;
+        color: rgba(210, 173, 80, 0.45);
+        letter-spacing: 0.05em;
+      }
+
+      /* ── Mobile Ring Repositioning ── */
+      @media (max-width: 767px) {
+        /* Target ring images by multiple selectors */
+        img[alt*="ring"],
+        img[alt*="Ring"],
+        [class*="ring"] img,
+        [class*="Ring"] img,
+        [class*="couple"] img[src*="ring"],
+        img[src*="ring"] {
+          position: absolute !important;
+          left: 50% !important;
+          top: 50% !important;
+          transform: translate(-50%, -50%) !important;
+          width: 120px !important;
+          height: auto !important;
+          max-width: 150px !important;
+          z-index: 1 !important;
+          margin: 0 !important;
+          opacity: 0.8 !important;
+        }
+
+        /* Ring wrapper containers */
+        [class*="ring-container"],
+        [class*="Ring-container"],
+        [class*="hero"] [class*="ring"],
+        .ring-wrapper,
+        [class*="couple"] [class*="ring"] {
+          position: absolute !important;
+          left: 50% !important;
+          top: 50% !important;
+          transform: translate(-50%, -50%) !important;
+          z-index: 1 !important;
+        }
+
+        [class*="ring-container"] img,
+        [class*="Ring-container"] img,
+        .ring-wrapper img,
+        [class*="couple"] [class*="ring"] img {
+          width: 120px !important;
+          height: auto !important;
+          display: block !important;
+          margin: 0 !important;
+          opacity: 0.8 !important;
+        }
+
+        /* Alternative positioning if needed - adjust top value to move ring near ampersand */
+        [class*="couples"] img,
+        [data-testid*="ring"] {
+          position: absolute !important;
+          left: 50% !important;
+          top: 50% !important;
+          transform: translate(-50%, -50%) !important;
+          z-index: 1 !important;
+          opacity: 0.8 !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      (function () {
+        const BASE = "/javascript-amazon-project/zareqia.com";
+
+        const EVENT_CONFIG = {
+          title: "Wedding: Ranjith RM & Nevetha",
+          location: "Emerald Garden, Podanur",
+          details:
+            "Reception - 28 May 2026 (6:00 PM onwards), Wedding - 29 May 2026 (6:00 AM to 7:00 AM)",
+          start: "2026-05-29T06:00:00+05:30",
+          end: "2026-05-29T07:00:00+05:30",
+        };
+
+        const GALLERY_IMAGES = [
+          BASE + "/gallery-optimized/01-copy-of-0c0a9886-1200.jpg",
+          BASE + "/gallery-optimized/02-copy-of-0c0a9888-1200.jpg",
+          BASE + "/gallery-optimized/03-copy-of-0c0a9894-1200.jpg",
+          BASE + "/gallery-optimized/04-copy-of-9a4a5651-1200.jpg",
+          BASE + "/gallery-optimized/06-img-5755-1200.jpg",
+          BASE + "/gallery-optimized/07-img-5795-1200.jpg",
+          BASE + "/gallery-optimized/08-img-6033-1200.jpg",
+          BASE + "/gallery-optimized/09-img-5722-1200.jpg",
+          BASE + "/gallery-optimized/10-img-5531-1200.jpg",
+        ];
+
+        // Desktop hero (landscape, wide shot with mirror)
+        const HERO_BG_DESKTOP =
+          BASE + "/gallery-optimized/05-copy-of-9a4a5953-1200.jpg";
+        // Mobile hero (portrait, both faces clearly visible — optimized 67KB)
+        const HERO_BG_MOBILE =
+          BASE + "/gallery-optimized/05-copy-of-9a4a5982-mobile-800.jpg";
+
+        /* ── Calendar helpers ── */
+        function toGoogleDate(isoString) {
+          const d = new Date(isoString);
+          return d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+        }
+
+        function createCalendarLinks() {
+          const gStart = toGoogleDate(EVENT_CONFIG.start);
+          const gEnd = toGoogleDate(EVENT_CONFIG.end);
+
+          const googleUrl =
+            "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+            "&text=" +
+            encodeURIComponent(EVENT_CONFIG.title) +
+            "&dates=" +
+            encodeURIComponent(gStart + "/" + gEnd) +
+            "&details=" +
+            encodeURIComponent(EVENT_CONFIG.details) +
+            "&location=" +
+            encodeURIComponent(EVENT_CONFIG.location);
+
+          const ics = [
+            "BEGIN:VCALENDAR",
+            "VERSION:2.0",
+            "PRODID:-//Wedding Invite//EN",
+            "BEGIN:VEVENT",
+            "UID:Ranjith-Nevetha-wedding@invite.local",
+            "DTSTAMP:" + toGoogleDate(new Date().toISOString()),
+            "DTSTART:" + gStart,
+            "DTEND:" + gEnd,
+            "SUMMARY:" + EVENT_CONFIG.title,
+            "DESCRIPTION:" + EVENT_CONFIG.details,
+            "LOCATION:" + EVENT_CONFIG.location,
+            "END:VEVENT",
+            "END:VCALENDAR",
+          ].join("\\r\\n");
+
+          const appleUrl = URL.createObjectURL(
+            new Blob([ics], { type: "text/calendar;charset=utf-8" }),
+          );
+          return { googleUrl, appleUrl };
+        }
+
+        /* ── Save the Date buttons ── */
+        function insertSaveDateButtons() {
+          if (document.querySelector(".save-date-wrap")) return;
+
+          const headings = Array.from(document.querySelectorAll("h2"));
+          const timelineHeading = headings.find((h) =>
+            /Program Timeline|Day Program/i.test(h.textContent || ""),
+          );
+          if (!timelineHeading) return;
+
+          const section = timelineHeading.closest("section");
+          if (!section || !section.parentElement) return;
+
+          const links = createCalendarLinks();
+          const isApple = /iPhone|iPad|iPod|Macintosh/i.test(
+            navigator.userAgent,
+          );
+          const wrap = document.createElement("div");
+          wrap.className = "save-date-wrap";
+          wrap.innerHTML = `
+            <div class="save-date-label">SAVE THE DATE</div>
+            <div class="save-date-buttons">
+              <a class="save-date-btn ${isApple ? "" : "active"}" href="${links.googleUrl}" target="_blank" rel="noopener">GOOGLE CALENDAR</a>
+              <a class="save-date-btn ${isApple ? "active" : ""}" href="${links.appleUrl}" download="wedding-invite.ics">APPLE / ICAL</a>
+            </div>
+          `;
+          section.insertAdjacentElement("afterend", wrap);
+        }
+
+        /* ── Gallery: replace React slideshow with full-image grid (no crop) ── */
+        function replaceSlideshowWithStaticGrid() {
+          const carouselImage = document.querySelector(
+            'img[alt^="Wedding moment"]',
+          );
+          if (!carouselImage) return;
+
+          // Walk up to find the section — may be inside a React wrapper div
+          const section = carouselImage.closest("section");
+          if (!section || section.dataset.customGallery === "true") return;
+          section.dataset.customGallery = "true";
+
+          // Fully clear the section including React's fixed-height container
+          section.innerHTML = "";
+
+          // Reset any height/overflow constraints React set on the section itself
+          section.className = "our-moments-section";
+          section.removeAttribute("style");
+
+          const header = document.createElement("div");
+          header.className = "our-moments-header";
+          header.innerHTML = `
+            <div class="our-moments-kicker">Moments</div>
+            <h2 class="our-moments-title">Our <em>Gallery</em></h2>
+          `;
+
+          const grid = document.createElement("div");
+          grid.className = "our-moments-grid";
+
+          GALLERY_IMAGES.forEach((src, index) => {
+            const item = document.createElement("div");
+            item.className = "our-moments-grid-item";
+            item.innerHTML = `<img src="${src}" alt="Our moment ${index + 1}" loading="lazy" />`;
+            grid.appendChild(item);
+          });
+
+          section.appendChild(header);
+          section.appendChild(grid);
+        }
+
+        /* ── Move gallery after venue section ── */
+        function moveGalleryAfterVenue() {
+          const carouselImage = document.querySelector(
+            'img[alt^="Wedding moment"], img[alt^="Our moment"]',
+          );
+          if (!carouselImage) return;
+          const gallerySection = carouselImage.closest("section");
+          if (!gallerySection) return;
+
+          const venueHeading = Array.from(document.querySelectorAll("h2")).find(
+            (h) => /Venue/i.test(h.textContent || ""),
+          );
+          if (!venueHeading) return;
+          const venueSection = venueHeading.closest("section");
+          if (!venueSection || !venueSection.parentElement) return;
+
+          if (venueSection.nextElementSibling !== gallerySection) {
+            venueSection.insertAdjacentElement("afterend", gallerySection);
+          }
+        }
+
+        /* ── Remove unwanted sections ── */
+        function removeUnwantedSections() {
+          const removeTitles = new Set([
+            "Dress Code",
+            "Pre-Wedding Events",
+            "Transportation",
+            "Accommodation",
+            "Gifts",
+          ]);
+          Array.from(document.querySelectorAll("h2")).forEach((h) => {
+            const text = (h.textContent || "").trim();
+            if (removeTitles.has(text)) {
+              const section = h.closest("section");
+              if (section) section.remove();
+            }
+          });
+        }
+
+        /* ── Hero background — swap the <img> the React bundle renders ── */
+        // The JS bundle renders an <img> tag (not CSS background) for the hero.
+        // We find that img and replace its src based on screen width.
+        let heroImgPatched = false;
+
+        function updateHeroImg() {
+          // The hero img is: inside the first section, full-width, object-cover, alt=""
+          const heroImg = document.querySelector(
+            'section img[alt=""][class*="object-cover"], section div.absolute img[alt=""]',
+          );
+          if (!heroImg) return;
+
+          if (window.innerWidth <= 768) {
+            heroImg.src = HERO_BG_MOBILE;
+            heroImg.style.objectPosition = "center 52%";
+          } else {
+            heroImg.src = HERO_BG_DESKTOP;
+            heroImg.style.objectPosition = "center center";
+          }
+        }
+
+        function applyHeroBackgroundImage() {
+          updateHeroImg();
+
+          if (!heroImgPatched) {
+            heroImgPatched = true;
+            window.addEventListener("resize", updateHeroImg);
+          }
+        }
+
+        /* ── Replace Send Message section with WhatsApp button ── */
+        const WA_NUMBER = "919487234865"; // 🔁 Replace with your number e.g. "919487234865"
+        const WA_MESSAGE = encodeURIComponent(
+          "Hi Ranjith RM & Nevetha! 🎉 Congratulations on your wedding! I received your invitation and wanted to send my warm wishes. See you at the celebration! 💐",
+        );
+
+        function replaceMessageSectionWithWhatsApp() {
+          if (document.querySelector(".wa-section-wrap")) return;
+
+          // Find the "Send a Message" / guest message section
+          const headings = Array.from(document.querySelectorAll("h2, h3"));
+          const msgHeading = headings.find((h) =>
+            /send.*message|leave.*message|guest.*message|message.*us|wishes/i.test(
+              h.textContent || "",
+            ),
+          );
+          if (!msgHeading) return;
+
+          const section = msgHeading.closest("section");
+          if (!section || section.dataset.waReplaced === "true") return;
+          section.dataset.waReplaced = "true";
+
+          section.innerHTML = "";
+          section.removeAttribute("style");
+          section.removeAttribute("class");
+
+          const wrap = document.createElement("div");
+          wrap.className = "wa-section-wrap";
+          wrap.innerHTML = `
+            <div class="wa-section-kicker">Get in Touch</div>
+            <h2 class="wa-section-title">Send Us Your <em>Wishes</em></h2>
+            <p class="wa-section-sub">
+              We'd love to hear from you! Tap the button below to send us a message directly on WhatsApp.
+            </p>
+            <a
+              class="wa-btn"
+              href="https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              YES, I'LL BE THERE
+            </a>
+            <p class="wa-btn-note">You'll be redirected to WhatsApp to send your message.</p>
+          `;
+
+          section.appendChild(wrap);
+        }
+
+        /* ── Run all customisations ── */
+        function applyCustomizations() {
+          removeUnwantedSections();
+          replaceSlideshowWithStaticGrid();
+          moveGalleryAfterVenue();
+          insertSaveDateButtons();
+          applyHeroBackgroundImage();
+          replaceMessageSectionWithWhatsApp();
+        }
+
+        const observer = new MutationObserver(applyCustomizations);
+        observer.observe(document.body, { childList: true, subtree: true });
+        applyCustomizations();
+      })();
+    </script>
+  </body>
+</html>
